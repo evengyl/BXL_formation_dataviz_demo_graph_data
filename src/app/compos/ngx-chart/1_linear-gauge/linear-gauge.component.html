@@ -1,9 +1,11 @@
 
 <ngx-charts-linear-gauge
-  [view]="view"
   [scheme]="colorScheme"
-  [value]="value"
+  [min]="gaugeMin"
+  [max]="gaugeMax"
+  [value]="gaugeValue"
   [previousValue]="previousValue"
+  [view]="view"
   (select)="onSelect($event)"
   [units]="units">
 </ngx-charts-linear-gauge>

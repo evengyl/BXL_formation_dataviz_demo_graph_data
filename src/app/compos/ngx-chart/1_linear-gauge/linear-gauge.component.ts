@@ -1,22 +1,30 @@
 import { Component } from '@angular/core';
-
+import { colorSets } from '../../utils/color-sets';
 
 @Component({
   selector: 'app-linear-gauge',
   templateUrl: './linear-gauge.component.html',
-  styleUrls: ['./linear-gauge.component.css']
 })
 export class LinearGaugeComponent {
-  single: any[];
-  view: any[number] = [400, 400];
-  colorScheme : any = {
-    domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
-  };
-  value: number = 50;
-  previousValue: number = 70;
-  units: string = 'counts';
+  single: any
+  view: any = [600, 600]
+  colorScheme : any = colorSets.find(s => s.name === 'cool');
+
+
+  gaugeMin: number = 0
+  gaugeMax: number = 100
+  gaugeValue : number = 100
+  previousValue : number = 100
+  units: string = 'Alertes'
 
   onSelect(event) {
-    console.log(event);
+    console.log("On click sur le chart")
+    console.log(event)
+
+    this.updateData()
+  }
+
+  updateData() {
+    this.gaugeValue = this.gaugeMin + Math.floor(Math.random() * (this.gaugeMax - this.gaugeMin));
   }
 }
