@@ -1,1 +1,11 @@
-<p>gauge-chart works!</p>
+
+<div class="col s12" style="height: 80vh;">
+    <ngx-charts-gauge
+        [scheme]="colorScheme"
+        [results]="data"
+        [legend]="legend"
+        [legendPosition]="legendPosition"
+        (select)="onSelect($event)"
+    >
+    </ngx-charts-gauge>
+</div>

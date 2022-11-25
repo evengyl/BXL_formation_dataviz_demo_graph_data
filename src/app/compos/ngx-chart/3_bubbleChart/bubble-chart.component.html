@@ -1,1 +1,19 @@
-<p>bubble-chart works!</p>
+<div class="col s12" style="height: 80vh;">
+    <ngx-charts-bubble-chart
+    [scheme]="colorScheme"
+    [results]="bubbleData"
+    [legend]="showLegend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    [xScaleMin]="xScaleMin"
+    [xScaleMax]="xScaleMax"
+    [yScaleMin]="yScaleMin"
+    [yScaleMax]="yScaleMax"
+    [minRadius]="minRadius"
+    [maxRadius]="maxRadius"
+    (select)="onSelect($event)"
+    >
+    </ngx-charts-bubble-chart>
+</div>

@@ -1,11 +1,13 @@
-
-<ngx-charts-linear-gauge
-  [scheme]="colorScheme"
-  [min]="gaugeMin"
-  [max]="gaugeMax"
-  [value]="gaugeValue"
-  [previousValue]="previousValue"
-  [view]="view"
-  (select)="onSelect($event)"
-  [units]="units">
-</ngx-charts-linear-gauge>
+<div class="col s6 offset-s3">
+  <div class="row center">
+    <ngx-charts-linear-gauge
+      [scheme]="colorScheme"
+      [min]="gaugeMin"
+      [max]="gaugeMax"
+      [value]="gaugeValue"
+      [previousValue]="previousValue"
+      (select)="onSelect($event)"
+      [units]="units">
+    </ngx-charts-linear-gauge>
+  </div>
+</div>

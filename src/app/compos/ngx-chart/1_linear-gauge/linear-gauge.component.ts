@@ -6,10 +6,9 @@ import { colorSets } from '../../utils/color-sets';
   templateUrl: './linear-gauge.component.html',
 })
 export class LinearGaugeComponent {
-  single: any
-  view: any = [600, 600]
-  colorScheme : any = colorSets.find(s => s.name === 'cool');
 
+  single: any
+  colorScheme : any = colorSets.find(s => s.name === 'cool')
 
   gaugeMin: number = 0
   gaugeMax: number = 100
@@ -25,6 +24,6 @@ export class LinearGaugeComponent {
   }
 
   updateData() {
-    this.gaugeValue = this.gaugeMin + Math.floor(Math.random() * (this.gaugeMax - this.gaugeMin));
+    this.gaugeValue = this.gaugeMin + Math.floor(Math.random() * (this.gaugeMax - this.gaugeMin))
   }
 }

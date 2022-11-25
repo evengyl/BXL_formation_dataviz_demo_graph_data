@@ -1,1 +1,17 @@
-<p>vertical-bar-chart works!</p>
+
+<div class="col s12" style="height: 80vh;">
+    <ngx-charts-bar-vertical
+    [scheme]="colorScheme"
+    [results]="multi"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="showLegend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    [showDataLabel]="true"
+    (select)="onSelect($event)">
+    </ngx-charts-bar-vertical>
+</div>

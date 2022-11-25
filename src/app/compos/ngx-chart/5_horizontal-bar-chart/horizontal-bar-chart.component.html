@@ -1,1 +1,16 @@
-<p>horizontal-bar-chart works!</p>
+<div class="col s12" style="height: 80vh;">
+    <ngx-charts-bar-horizontal
+    [scheme]="colorScheme"
+    [results]="datas"
+    [gradient]="gradient"
+    [xAxis]="showXAxis"
+    [yAxis]="showYAxis"
+    [legend]="showLegend"
+    [showXAxisLabel]="showXAxisLabel"
+    [showYAxisLabel]="showYAxisLabel"
+    [xAxisLabel]="xAxisLabel"
+    [yAxisLabel]="yAxisLabel"
+    [showDataLabel]="true"
+    (select)="onSelect($event)">
+    </ngx-charts-bar-horizontal>
+</div>
