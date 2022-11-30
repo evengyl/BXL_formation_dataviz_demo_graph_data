@@ -5,23 +5,14 @@ export var datas = [
       {
         "name": "2010",
         "value": 36745,
-        "extra": {
-          "code": "fr"
-        }
       },
       {
         "name": "2000",
         "value": 34774,
-        "extra": {
-          "code": "fr"
-        }
       },
       {
         "name": "1990",
         "value": 29476,
-        "extra": {
-          "code": "fr"
-        }
       }
     ]
   },

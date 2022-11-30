@@ -20,8 +20,4 @@ export class HorizontalBarChartComponent {
 
   colorScheme : any = colorSets.find(s => s.name === 'ocean')
 
-  onSelect(data): void {
-    console.log('Item clicked', data)
-  }
-
 }

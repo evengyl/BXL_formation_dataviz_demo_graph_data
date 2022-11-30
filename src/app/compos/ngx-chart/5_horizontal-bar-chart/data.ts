@@ -1,43 +1,46 @@
-export var datas = [
-  {
-    "name": "Germany",
-    "value": 40632,
-    "extra": {
-      "code": "de"
-    }
-  },
-  {
-    "name": "United States",
-    "value": 50000,
-    "extra": {
-      "code": "us"
-    }
-  },
-  {
-    "name": "United Kingdom",
-    "value": 36240,
-    "extra": {
-      "code": "uk"
-    }
-  },
-  {
-    "name": "Italy",
-    "value": 35800,
-    "extra": {
-      "code": "it"
-    }
-  },
-  {
-    "name": "Iraq",
-    "value": 21443
-  },
-  {
-    "name": "Saint Lucia",
-    "value": 44861
-  },
-  {
-    "name": "Suriname",
-    "value": 46401
-  }
-]
-  
+export var datas = [{
+  "name": "Tempsoft",
+  "value": 1937.2
+}, {
+  "name": "Zontrax",
+  "value": 5755.0
+}, {
+  "name": "Treeflex",
+  "value": 9084.5
+}, {
+  "name": "Y-Solowarm",
+  "value": 2220.5
+}, {
+  "name": "Lotlux",
+  "value": 9716.2
+}, {
+  "name": "Stringtough",
+  "value": 7084.4
+}, {
+  "name": "Quo Lux",
+  "value": 1264.2
+}, {
+  "name": "Holdlamis",
+  "value": 4136.7
+}, {
+  "name": "Otcom",
+  "value": 6500.5
+}, {
+  "name": "Konklux",
+  "value": 1804.0
+}, {
+  "name": "Job",
+  "value": 9870.9
+}, {
+  "name": "Konklux",
+  "value": 3702.3
+}, {
+  "name": "Domainer",
+  "value": 8780.4
+}, {
+  "name": "Flexidy",
+  "value": 1624.3
+}, {
+  "name": "Greenlam",
+  "value": 5379.8
+}]

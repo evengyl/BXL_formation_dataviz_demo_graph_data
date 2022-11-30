@@ -1,103 +1,85 @@
-export var multi = [
+export var multi = [{
+  "name": "Regrant",
+  "series": [
     {
-      "name": "Bruxelles",
-      "series": [
-        {
-          "value": 3647,
-          "name": "2016-09-17T20:19:01"
-        },
-        {
-          "value": 6078,
-          "name": "2016-09-21T02:51:38"
-        },
-        {
-          "value": 4337,
-          "name": "2016-09-18T18:52:43"
-        },
-        {
-          "value": 3565,
-          "name": "2016-09-19T15:17:23"
-        },
-        {
-          "value": 4598,
-          "name": "2016-09-14T08:19:48"
-        }
-      ]
+      "name": "Manipal University",
+      "value": 628.9
     },
     {
-      "name": "Charleroi",
-      "series": [
-        {
-          "value": 5552,
-          "name": "2016-09-17T20:19:01"
-        },
-        {
-          "value": 4135,
-          "name": "2016-09-21T02:51:38"
-        },
-        {
-          "value": 3256,
-          "name": "2016-09-18T18:52:43"
-        },
-        {
-          "value": 3493,
-          "name": "2016-09-19T15:17:23"
-        },
-        {
-          "value": 3529,
-          "name": "2016-09-14T08:19:48"
-        }
-      ]
+      "name": "Institute of Teachers Education, Tuanku Bainun",
+      "value": 652.5
     },
     {
-      "name": "Mons",
-      "series": [
-        {
-          "value": 2971,
-          "name": "2016-09-17T20:19:01"
-        },
-        {
-          "value": 2077,
-          "name": "2016-09-21T02:51:38"
-        },
-        {
-          "value": 2222,
-          "name": "2016-09-18T18:52:43"
-        },
-        {
-          "value": 2200,
-          "name": "2016-09-19T15:17:23"
-        },
-        {
-          "value": 5088,
-          "name": "2016-09-14T08:19:48"
-        }
-      ]
-    },
-    {
-      "name": "Liège",
-      "series": [
-        {
-          "value": 3721,
-          "name": "2016-09-17T20:19:01"
-        },
-        {
-          "value": 4210,
-          "name": "2016-09-21T02:51:38"
-        },
-        {
-          "value": 5165,
-          "name": "2016-09-18T18:52:43"
-        },
-        {
-          "value": 3594,
-          "name": "2016-09-19T15:17:23"
-        },
-        {
-          "value": 4992,
-          "name": "2016-09-14T08:19:48"
-        }
-      ]
+      "name": "New York Law School",
+      "value": 744.9
     }
   ]
-  
+}, {
+  "name": "Subin",
+  "series": [
+    {
+      "name": "Xi'an Academy of Fine Art",
+      "value": 473.6
+    },
+    {
+      "name": "Dr. Babasaheb Ambedkar Technological University",
+      "value": 481.8
+    },
+    {
+      "name": "University Of Hawaii - System",
+      "value": 842.1
+    },
+    {
+      "name": "Chongqing Medical University",
+      "value": 150.2
+    }
+  ]
+}, {
+  "name": "Solarbreeze",
+  "series": [
+    {
+      "name": "Prasetiya Mulya Business School",
+      "value": 937.5
+    },
+    {
+      "name": "University of Fort Hare",
+      "value": 26.3
+    },
+    {
+      "name": "Asian University of Bangladesh",
+      "value": 256.8
+    },
+    {
+      "name": "Tokyo Medical College",
+      "value": 985.4
+    }
+  ]
+}, {
+  "name": "Duobam",
+  "series": [
+    {
+      "name": "Eastern Oregon University",
+      "value": 71.1
+    },
+    {
+      "name": "Josai University",
+      "value": 336.2
+    }
+  ]
+}, {
+  "name": "Konklab",
+  "series": [
+    {
+      "name": "Private Universität Witten/Herdecke",
+      "value": 215.0
+    },
+    {
+      "name": "Galway Mayo Institute of Technology",
+      "value": 958.5
+    },
+    {
+      "name": "Centenary College of Louisiana",
+      "value": 114.5
+    }
+  ]
+}]

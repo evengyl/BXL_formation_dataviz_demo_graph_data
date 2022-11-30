@@ -24,8 +24,4 @@ export class LineChartComponent {
   colorScheme : any = colorSets.find(s => s.name === 'vivid')
 
 
-  onSelect(data): void {
-    console.log('Item clicked', data)
-  }
-
 }

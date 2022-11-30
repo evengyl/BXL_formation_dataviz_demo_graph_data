@@ -22,8 +22,4 @@ export class NormalizedVerticalBarChartComponent {
   yAxisLabel: string = 'Population normalisée';
 
   colorScheme : any = colorSets.find(s => s.name === 'ocean')
-
-  onSelect(event) {
-    console.log(event);
-  }
 }

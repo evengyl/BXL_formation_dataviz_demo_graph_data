@@ -3,10 +3,10 @@ export var bubbleData =  [
     "name": "United States",
     "series": [
       {
-        "name": "2010",
-        "x": "2010",
-        "y": 78.8,
-        "r": 310
+        "name": "VW",
+        "x": "Polo",
+        "y": 15000,
+        "r": 2019
       },
       {
         "name": "2000",

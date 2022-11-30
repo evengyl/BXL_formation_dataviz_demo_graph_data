@@ -14,22 +14,18 @@ export class BubbleChartComponent {
   showLegend: boolean = true
   
   minRadius: number = 5
-  maxRadius: number = 20
+  maxRadius: number = 15
   
-  xAxisLabel: string = 'Census Date'
+  xAxisLabel: string = 'Année'
   showXAxisLabel: boolean = true
-  xScaleMin: number = 2000
-  xScaleMax: number = 1900
+  xScaleMin: number = 1920
+  xScaleMax: number = 2025
   
-  yAxisLabel: string = 'Life expectancy [years]'
+  yAxisLabel: string = 'Prix'
   showYAxisLabel: boolean = true
-  yScaleMin: number = 0
-  yScaleMax: number = 100
+  yScaleMin: number = 5000
+  yScaleMax: number = 30000
 
   
   colorScheme : any = colorSets.find(s => s.name === 'vivid')
-
-  onSelect(data): void {
-    console.log('Item clicked', data)
-  }
 }

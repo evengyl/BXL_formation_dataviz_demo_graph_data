@@ -20,9 +20,4 @@ export class VerticalBarChartComponent {
   yAxisLabel = 'Population';
 
   colorScheme : any = colorSets.find(s => s.name === 'ocean')
-
-
-  onSelect(event) {
-    console.log(event);
-  }
 }

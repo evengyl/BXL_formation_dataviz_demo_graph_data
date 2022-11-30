@@ -23,8 +23,4 @@ export class PolarChartComponent {
   yAxisLabel: string = 'Population';
 
   colorScheme : any = colorSets.find(s => s.name === 'flame')
-
-  onSelect(event) {
-    console.log(event);
-  }
 }
