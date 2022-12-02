@@ -10,9 +10,9 @@ export class LinearGaugeComponent {
   single: any
   colorScheme : any = colorSets.find(s => s.name === 'cool')
 
-  gaugeMin: number = 0
-  gaugeMax: number = 100
-  gaugeValue : number = 50
+  min: number = 0
+  max: number = 100
+  value : number = 50
   previousValue : number = 100
   units: string = 'Alertes'
 
