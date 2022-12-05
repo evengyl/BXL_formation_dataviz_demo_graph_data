@@ -46,6 +46,12 @@
         - : n'oubliez pas que les liens de navigation ne sont pas des `<a href="url">` mais bien `<a routerLink="path">`
 
 
+7. pour la publication sur github, ajouter votre projet sur github proprement
+ - : ajouter la package suivant `ng add angular-cli-ghpages`
+ - : lancer ensuite la commande suivante `ng deploy --base-href=/<<nameRepositoryGithub>>/`
+    - : si une erreur rouge apparait c'est surement la configuration de git qui ne permet pas les long fichier
+        - : rendez vous dans `C:\Program Files\Git\etc` ouvrez en admin le fichier gitconfig et ajouter dans la partie `core` cette ligne : `longpaths = true` 
+
 
 ## exemple de code du module pour les déclarations:
 
