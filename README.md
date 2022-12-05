@@ -29,5 +29,5 @@
 5.4 : n'oubliez pas que les liens de navigation ne sont pas des <a href="url"> mais bien <a routerLink="path">
 
 ##exemple de code
-![This is an image]("./src/assets/app.module.PNG")
+![This is an image](./src/assets/app.module.PNG)
 
