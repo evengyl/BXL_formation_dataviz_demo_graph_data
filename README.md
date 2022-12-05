@@ -51,6 +51,8 @@
  - : lancer ensuite la commande suivante `ng deploy --base-href=/<<nameRepositoryGithub>>/`
     - : si une erreur rouge apparait c'est surement la configuration de git qui ne permet pas les long fichier
         - : rendez vous dans `C:\Program Files\Git\etc` ouvrez en admin le fichier gitconfig et ajouter dans la partie `core` cette ligne : `longpaths = true` 
+ - : tout devrait fonctionner sur la page `https://<< userNameGitHub >>.github.io/<< repositoryName >>`
+ - : exemple d'url du repository de votre app faite avec moi : `https://evengyl.github.io/BXL_formation_dataviz_demo_graph_data`
 
 
 ## exemple de code du module pour les déclarations:
