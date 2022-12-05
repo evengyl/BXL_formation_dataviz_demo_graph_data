@@ -29,6 +29,7 @@
 
 
 6. : le app.compo.html contient le code de base prévu par angular, ne laisser que la ligne du router `<router-outlet>`
+    - : Materialize : `https://materializecss.com/`
     - : ajouter au besoin une librairie css comme materialize -> ajouter les deux lignes suivante dans le index.html de la racine dans le `<head>`
     - : `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">`
     - : `<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>`
