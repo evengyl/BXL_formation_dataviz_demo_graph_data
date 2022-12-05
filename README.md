@@ -65,3 +65,20 @@
 
 ![This is an image](./src/assets/routerlink.PNG)
 
+
+
+# Exos récap
+
+1. Créer une nouvelle installation angular node npm
+    -   Lancer un nouveau projet propre (on enlève les choses inutiles)
+
+2. Créer un app SPA (single page app) comportant une page d'acceuil simple mais clair sur un rapport de datas (présentation)
+3. n'oubliez pas le compo de nav bar
+4. préparer une simple page de contact avec un micro formulaire html ! pas d'angular ici, voir materialize
+5. préparer une page de rapport à mettre dans la navigation : 
+    - cette page devra comprendre 5 graphiques ngx différents mettant en scène différentes propositions de datas sur base du thème choisi. (voir les possibilités de mockaroo)
+    - attention de bien respecter les formats des datas ! 
+    - attention également que si vous avez différents graphiques vous aurez également les même variables plusieurs fois dans votre .ts
+    - on pallie à ceci avec des nom différent par exemple : color devient monGraph1Color monGraph2Color
+    - utilisez `https://www.mockaroo.com/` pour générer des datas.
+    - n'oubliez pas de soigner le style, comme si vous deviez présenter à une entreprise, la révolution 2023
