@@ -30,7 +30,9 @@
     - : lancé le projet avec la commande `ng serve --port 4200`
     - : Si vous obtenez une erreur comme quoi le systeme ne pas pas lancer de script bla bla bla, lancer la commande suivante
     - : `Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"` (une fois faite, elle reste valable à vie)
-
+    - : Si vous obtenez une erreur de types manquant  genre d3-scales et d3-selection lancez les deux commandes suivantes
+    - : `npm i --save-dev @types/d3-selection`
+    - : `npm i --save-dev @types/d3-scale`
 
 6. : le app.compo.html contient le code de base prévu par angular, ne laisser que la ligne du router `<router-outlet>`
     - : Materialize : `https://materializecss.com/`
