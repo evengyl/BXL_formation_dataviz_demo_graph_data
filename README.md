@@ -86,3 +86,4 @@
     - on pallie à ceci avec des nom différent par exemple : color devient monGraph1Color monGraph2Color
     - utilisez `https://www.mockaroo.com/` pour générer des datas.
     - n'oubliez pas de soigner le style, comme si vous deviez présenter à une entreprise, la révolution 2023
+    - : La liste des couleur des graphiques se trouve dans cette demo dans le fichier `app.components.html`

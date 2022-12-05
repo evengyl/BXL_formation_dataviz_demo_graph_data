@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { colorSets } from '../../utils/color-sets';
 import { datas } from './data'
 
 
@@ -21,7 +20,7 @@ export class LineChartComponent {
   yAxisLabel: string = 'Populations';
   timeline: boolean = true;
 
-  colorScheme : any = colorSets.find(s => s.name === 'vivid')
+  colorScheme : any = 'vivid'
 
 
 }

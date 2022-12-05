@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { colorSets } from '../../utils/color-sets';
 import { multi } from './data'
 
 
@@ -22,5 +21,5 @@ export class PolarChartComponent {
   xAxisLabel: string = 'Années';
   yAxisLabel: string = 'Population';
 
-  colorScheme : any = colorSets.find(s => s.name === 'flame')
+  colorScheme : any = 'flame'
 }

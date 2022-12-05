@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { LegendPosition } from '@swimlane/ngx-charts';
-import { colorSets } from '../../utils/color-sets';
 import { datas } from './data'
 
 @Component({
@@ -14,7 +12,7 @@ export class PieChartComponent {
   showLegend: boolean = true
   showLabels: boolean = true
   isDoughnut: boolean = false
-  legendPosition: any = LegendPosition.Right
+  legendPosition: any = 'right'
 
-  colorScheme : any = colorSets.find(s => s.name === 'vivid')
+  colorScheme : any = 'vivid'
 }

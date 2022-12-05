@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { colorSets } from '../../utils/color-sets';
 import { datas } from './data'
 
 
@@ -21,6 +20,6 @@ export class NormalizeAreaChartComponent {
   yAxisLabel: string = 'Normalized Population';
   timeline: boolean = true;
 
-  colorScheme : any = colorSets.find(s => s.name === 'ocean')
+  colorScheme : any = 'ocean'
 
 }

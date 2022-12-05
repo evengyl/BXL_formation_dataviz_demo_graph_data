@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { colorSets } from '../../utils/color-sets';
 import { datas } from './data'
 
 
@@ -15,6 +14,6 @@ export class PieChartAdvancedComponent {
   showLabels: boolean = true;
   isDoughnut: boolean = false;
 
-  colorScheme : any = colorSets.find(s => s.name === 'vivid')
+  colorScheme : any = 'vivid'
 
 }

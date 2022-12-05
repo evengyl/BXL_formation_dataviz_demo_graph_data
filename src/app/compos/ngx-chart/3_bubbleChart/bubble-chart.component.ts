@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { colorSets } from '../../utils/color-sets';
 import { bubbleData } from './data'
 
 @Component({
@@ -27,5 +26,5 @@ export class BubbleChartComponent {
   yScaleMax: number = 30000
 
   
-  colorScheme : any = colorSets.find(s => s.name === 'vivid')
+  colorScheme : any = 'vivid'
 }

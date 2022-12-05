@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { colorSets } from '../../utils/color-sets';
 import { datas } from './data'
 
 @Component({
@@ -19,5 +18,5 @@ export class VerticalBarChartComponent {
   showYAxisLabel = true;
   yAxisLabel = 'Population';
 
-  colorScheme : any = colorSets.find(s => s.name === 'ocean')
+  colorScheme : any = 'ocean'
 }

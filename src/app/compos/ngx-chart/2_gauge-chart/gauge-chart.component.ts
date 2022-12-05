@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { LegendPosition } from '@swimlane/ngx-charts';
-import { colorSets } from '../../utils/color-sets';
 import { data } from "./data"
 
 @Component({
@@ -11,7 +9,7 @@ export class GaugeChartComponent {
 
   data: any = data
   legend: boolean = true
-  legendPosition: LegendPosition = LegendPosition.Right
+  legendPosition : any = "right"
 
-  colorScheme : any = colorSets.find(s => s.name === 'vivid')
+  colorScheme : any = 'vivid'
 }

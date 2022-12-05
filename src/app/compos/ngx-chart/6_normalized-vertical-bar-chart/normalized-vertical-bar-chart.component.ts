@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { colorSets } from '../../utils/color-sets';
 import { datas } from './data'
 
 @Component({
@@ -21,5 +20,5 @@ export class NormalizedVerticalBarChartComponent {
   showYAxisLabel: boolean = true;
   yAxisLabel: string = 'Population normalisée';
 
-  colorScheme : any = colorSets.find(s => s.name === 'ocean')
+  colorScheme : any = 'ocean'
 }
