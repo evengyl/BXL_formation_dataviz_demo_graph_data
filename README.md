@@ -21,6 +21,8 @@
 
 4. : Pour la DataViz -> installer la librairie ngx-chart avec la commande `npm i @swimlane/ngx-charts --save`
     - : Vérifier également dans le fichier package.json en racine si @swimlane est bien cité
+    - : Ajouter la ligne d'import dans le `app.module.ts` dans la partie `import : []` -> 
+        - : NgxChartsModule avec l'import `import { NgxChartsModule } from "@swimlane/ngx-charts"`
 
 
 
