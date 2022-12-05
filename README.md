@@ -28,12 +28,27 @@
 5.3.1 : ajouter par exemple dans le app.routing.module.ts dans le tableau des routes -> { path : "url", component : nomCompo }
 5.4 : n'oubliez pas que les liens de navigation ne sont pas des <a href="url"> mais bien <a routerLink="path">
 
-##exemple de code :
+## exemple de code du module pour les déclarations:
 
 ![This is an image](./src/assets/app.module.PNG)
+
+## exemple de code structure de base du compo racine:
+
 ![This is an image](./src/assets/app.compo.PNG)
+
+## exemple de code compo avec variable pour graphique:
+
 ![This is an image](./src/assets/compo.PNG)
+
+## exemple de code graphique de gauge:
+
 ![This is an image](./src/assets/gauge.PNG)
+
+## exemple de code router général:
+
 ![This is an image](./src/assets/router.PNG)
+
+## exemple de code Sur le router link de navigation:
+
 ![This is an image](./src/assets/routerlink.PNG)
 
