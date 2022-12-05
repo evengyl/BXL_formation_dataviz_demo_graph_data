@@ -54,6 +54,8 @@
  - : tout devrait fonctionner sur la page `https://<< userNameGitHub >>.github.io/<< repositoryName >>`
  - : exemple d'url du repository de votre app faite avec moi : `https://evengyl.github.io/BXL_formation_dataviz_demo_graph_data`
  - : Pour déployer à nouveau de modification, commiter et pusher votre code et relancer la commande de déploiement ci-dessus
+ - : Pour avoir plus facile pour lancer la commande de déployement assez longue, rdv dans le `package.json` et ajouter dans la list des "script", un nom de commande que vous voulez : la commande de déployment -> ex : `"deployGH" : "ng deploy --base-href=/BXL_formation_demoPublishInGithubIO_dataviz_2022/"`
+    - : pour lancer cette commande personnalisée taper `npm run deployGH`
 
 
 ## exemple de code du module pour les déclarations:
