@@ -26,6 +26,8 @@
 
 5. : Couper VS Code, et relancer dans la raçine du projet !!! et bien vérifier dans le terminal que l'on soit dedans !
     - : lancé le projet avec la commande `ng serve --port 4200`
+    - : Si vous obtenez une erreur comme quoi le systeme ne pas pas lancer de script bla bla bla, lancer la commande suivante
+    - : `Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"` (une fois faite, elle reste valable à vie)
 
 
 6. : le app.compo.html contient le code de base prévu par angular, ne laisser que la ligne du router `<router-outlet>`
