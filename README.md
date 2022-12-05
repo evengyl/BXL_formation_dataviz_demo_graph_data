@@ -1,7 +1,7 @@
 ```
-1 : Installer la version LTS de node JS
-1.1 : vérifier dans une console que node et npm sont bien installé
-1.1.1 : avec la commande `node -v` et `npm -v`
+1. : Installer la version LTS de node JS
+    1.1 : vérifier dans une console que node et npm sont bien installé
+        1.1.1 : avec la commande `node -v` et `npm -v`
 ```
 
 
